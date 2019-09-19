@@ -1,0 +1,233 @@
+html, body {
+	margin: 0;
+	max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+html{
+	font-size: 1rem;
+}
+
+@media (max-width: 500px){
+	html{
+		font-size: 0.9rem;
+	}
+}
+
+
+.full-screen {
+	height: 100vh; 
+}
+
+.maroon {
+	background-color: #3F2E34;
+}
+
+.explore {
+	background-color: #343a40;
+	border-radius: 0%;
+	border: none;
+}
+
+@media (min-width: 500px){
+	#navbar {
+		font-size: 1.3vw;
+	}
+}
+
+
+#main-background {
+	background-image: url('img/mountain.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#community-main-background {
+	background-image: url('img/elephant_bw_min.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#morning-at-home-background {
+	background-image: url('img/rhino_bw.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+#morning-col {
+	background-image: url('img/Morning at Home/morning at home.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+
+
+#tanzania-trip-background {
+	background-image: url('img/masai.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.card-style {
+	width: 85vw
+}
+
+
+#tall-2 {
+	background-image: url('img/tall-2.jpg');
+	height: 100vh;
+	background-size: cover;
+}
+
+#wide-3 {
+	background-image: url('img/wide-3.jpg');
+	height: 100vh;
+	background-size: cover;
+}
+
+#barranco {
+	background-image: url('img/WhatsApp\ Image\ 2018-10-22\ at\ 11.20.36\ PM.jpeg');
+	height: 100vh;
+	background-size: cover;
+}
+
+#barafu {
+	background-image: url('img/WhatsApp\ Image\ 2018-10-22\ at\ 11.18.26\ PM.jpeg');
+	height: 100vh;
+	background-size: cover;
+}
+
+.black {
+	background-color: black;
+}
+
+#mweka {
+	background-image: url('img/WhatsApp\ Image\ 2018-11-03\ at\ 12.56.19\ AM.jpeg');
+	height: 100vh;
+	background-size: cover;
+}
+
+#uhuru {
+	background-image: url('img/david-clode-791858-unsplash.jpg');
+	height: 100vh;
+	background-size: cover;
+}
+
+.sponsor-us {
+	background-image: url('img/chen-hu-526051-unsplash.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+	min-height: 400px;
+}
+
+#sponsor-us{
+	position: relative;
+	min-height: 30rem;
+	background: url('img/chen-hu-526051-unsplash.jpg');
+	background-attachment: fixed;
+	background-size:cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #fff;
+}
+
+#contact-us{
+	position: relative;
+	min-height: 30rem;
+	background: url('img/chen-hu-664399-unsplash.jpg');
+	background-attachment: fixed;
+	background-size:cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #fff;
+}
+
+
+#get-notified{
+	position: relative;
+	min-height: 25rem;
+	background: url('img/africa-animals-conservation-247376.jpg');
+	background-attachment: fixed;
+	background-size:cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #fff;
+  }
+
+  #notified{
+	text-align: center;
+  }
+  
+  .dark-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0,0.8);
+  }
+
+  .community-dark-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0,0.5);
+  }
+
+#christmas-background {
+	background-image: url('img/A Childrens Christmas/header.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#christmas-col {
+	background-image: url('img/A Childrens Christmas/branch-celebration-christmas-257909.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 30rem;
+	width: 100%;
+}
+
+#christmas-image-camp {
+	background-image: url('img/Machame\ Square.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 25rem;
+	width: 100%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+  }
+  
+  .fa-instagram {
+	background: #125688;
+	color: white;
+  }
